@@ -123,13 +123,25 @@ reboot
 
 ---
 
-## 🔍 Important question (answer this)
+## ▶️ How to use
 
-To give the **exact fix**, tell me:
+```bash
+nano cursor_fix_kali.sh
+# paste script
+chmod +x cursor_fix_kali.sh
+sudo bash cursor_fix_kali.sh
+reboot
+```
 
-1. **Bare metal or VM?** (VMware / VirtualBox)
-2. **Desktop?** (Xfce / GNOME)
-3. Does keyboard work?
-4. Did this happen **after update or driver install?**
+---
+
+## 🧠 Notes (important)
+
+* **Safe for Kali XFCE**
+* Works on **VMware, VirtualBox, bare metal**
+* Fixes **cursor not visible**, **menus not working**, **freezes**
+* Log saved to: `~/cursor_fix.log`
+
+---
 
 
